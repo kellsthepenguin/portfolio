@@ -1,12 +1,27 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import ReactFullpage from '@fullpage/react-fullpage';
+
+import Me from './pages/Me';
+
 import './index.css';
-import App from './App';
+
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <ReactFullpage
+      debug
+      licenseKey={'Dj1-imsosexycutiepretty'}
+      anchors={['firstPage', 'secondPage']}
+      sectionSelector={'.section'}
+
+      render={comp => (
+        <ReactFullpage.Wrapper>
+          <Me />
+        </ReactFullpage.Wrapper>
+      )}
+    />
   </React.StrictMode>,
   document.getElementById('root')
 );

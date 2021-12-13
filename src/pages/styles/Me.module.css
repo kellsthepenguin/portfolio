@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css?family=Noto%20Sans%20KR');
+
+.main {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+  font-family: sans-serif, 'Noto Sans KR';
+}
+
+.name {
+  font-size: 25pt;
+}
+
+.social {
+  padding: 5px;
+  font-size: 25pt;
+}
+
+.scroll {
+  text-align: center;
+  position: absolute;
+  bottom: 10px;
+  width: 100%;
+  color: grey;
+}

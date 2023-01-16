@@ -1,12 +1,11 @@
 import Introduce from '@/components/Introduce'
+import Techs from '@/components/Techs'
 
 export default function Home() {
   return (
-    <div>
-      <div className='snap-y snap-mandatory h-screen overflow-scroll'>
-        <Introduce />
-        <div className='snap-start w-screen h-screen flex items-center'>whats next</div>
-      </div>
+    <div id='main' className='snap-y snap-mandatory h-screen overflow-scroll'>
+      <Introduce />
+      <Techs />
     </div>
   )
 }

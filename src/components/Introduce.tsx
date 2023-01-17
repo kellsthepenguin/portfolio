@@ -5,7 +5,7 @@ import { faGithub } from '@fortawesome/free-brands-svg-icons'
 export default function Introduce() {
   return (
     <div className='snap-start w-screen h-screen flex items-center'>
-      <div className='md:ml-48 ml-[2rem] md:mb-10 mt-[-30rem] sm:text-4xl text-2xl font-extralight'>
+      <div className='md:ml-48 ml-[2rem] md:mb-[-10rem] mt-[-30rem] sm:text-4xl text-2xl font-extralight'>
         <TypeIt options={{ cursor: false }}>
           <div className='font-sans inline'>
             <span>안녕하세요.</span> <br />

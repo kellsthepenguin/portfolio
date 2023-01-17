@@ -3,7 +3,7 @@ import Techs from '@/components/Techs'
 
 export default function Home() {
   return (
-    <div className='snap-y snap-mandatory h-screen overflow-scroll'>
+    <div className='snap-y snap-mandatory h-screen overflow-x-hidden overflow-scroll'>
       <Introduce />
       <Techs />
     </div>

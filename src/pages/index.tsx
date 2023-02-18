@@ -1,5 +1,6 @@
 import Careers from '@/components/Careers'
 import Introduce from '@/components/Introduce'
+import Projects from '@/components/Projects'
 import Techs from '@/components/Techs'
 
 export default function Home() {
@@ -8,6 +9,7 @@ export default function Home() {
       <Introduce />
       <Techs />
       <Careers />
+      <Projects />
     </div>
   )
 }
